@@ -57,7 +57,7 @@
 --     LIMIT 3)
 -- ORDER BY film_counter DESC, first_name, last_name;
 
--- task6
+-- task6 haven't done yet
 
 -- SELECT address_id,
 -- CASE active
