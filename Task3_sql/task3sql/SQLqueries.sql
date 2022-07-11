@@ -66,15 +66,6 @@
 -- GROUP BY city.city
 -- ORDER BY Inactive DESC;
 
--- SELECT city.city, COUNT(active) AS active1, COUNT(active) AS active0
--- FROM city
--- JOIN address a ON city.city_id = a.city_id
--- JOIN customer c ON a.address_id = c.address_id
--- WHERE active = 1
--- GROUP BY city.city
--- ORDER BY active1 DESC;
---
-
 -- _________________task7_________________
 --
 -- (SELECT name, SUM(rental_duration)
