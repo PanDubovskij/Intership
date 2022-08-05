@@ -1,9 +1,7 @@
-import os
 import pandas as pd
 from airflow.models import DAG
 from datetime import datetime
 from airflow.operators.python import PythonOperator
-from airflow.models import Variable
 from pymongo import MongoClient
 
 review_path = '/home/jan/airflow/dags/tiktok_google_play_reviews.csv'
